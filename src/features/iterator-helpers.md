@@ -172,7 +172,8 @@ console.log(posts.values().find((x) => x.textContent.includes('V8')).textContent
 // Select the list of blog posts from a blog archive page.
 const posts = document.querySelectorAll('li:not(header li)');
 
-// First create an iterator from the posts. Then, log the text content (title) of the recent blog post that includes the `V8` keyword.
+// First create an iterator from the posts. Then, log the text content (title) of
+// the recent blog post that includes the `V8` keyword.
 console.log(Iterator.from(posts).find((x) => x.textContent.includes('V8')).textContent);
 ```
 
